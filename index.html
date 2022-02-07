@@ -6,5 +6,383 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>eshoy.pe clone</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <section class="header__mobile-menu" id="popup">
+        <figure>
+          <img
+            class="header__mobile-close"
+            src="./images/x.svg"
+            alt="boton para cerrar"
+            id="close"
+          />
+        </figure>
+        <nav class="header__mobile-nav">
+          <ul class="header__mobile-nav-list">
+            <li class="header__mobile-nav-list-item">
+              <a
+                class="header__mobile-nav-list-link"
+                href="#trabajamos"
+                id="menu-trabajamos"
+                >quiénes somos</a
+              >
+            </li>
+            <li class="header__mobile-nav-list-item">
+              <a
+                class="header__mobile-nav-list-link"
+                href="#alianzas"
+                id="menu-alianzas"
+                >qué hacemos</a
+              >
+            </li>
+            <li class="header__mobile-nav-list-item">
+              <a
+                class="header__mobile-nav-list-link"
+                href="#contribuimos"
+                id="menu-contribuimos"
+                >iniciativas</a
+              >
+            </li>
+            <li class="header__mobile-nav-list-item">
+              <a
+                class="header__mobile-nav-list-link"
+                href="#contacto"
+                id="menu-contacto"
+                >contacto</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <div class="header__container">
+        <figure class="header__logo">
+          <img
+            class="header__logo-image"
+            src="./images/logo-eshoy.png"
+            alt="logo de eshoy.pe"
+          />
+        </figure>
+        <figure>
+          <img
+            id="menu-icon"
+            class="header__mobile-menu-icon"
+            src="./images/menu.svg"
+            alt="icono de menu"
+          />
+        </figure>
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-list-item">
+              <a class="header__nav-list-link" href="">quiénes somos</a>
+            </li>
+            <li class="header__nav-list-item">
+              <a class="header__nav-list-link" href="">qué hacemos</a>
+            </li>
+            <li class="header__nav-list-item">
+              <a class="header__nav-list-link" href="">iniciativas</a>
+            </li>
+            <li class="header__nav-list-item">
+              <a class="header__nav-list-link" href="">contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            Porque el Perú que queremos lo construimos hoy.
+          </h1>
+        </div>
+      </section>
+      <section class="trabajamos" id="trabajamos">
+        <div class="trabajamos__container">
+          <h2 class="trabajamos__title">
+            Trabajamos unidos por un Perú inclusivo,
+            <span class="trabajamos__title--italics">próspero</span> y
+            <span class="trabajamos__underlined"
+              >sostenible.
+              <div class="trabajamos__underlined-image"></div>
+            </span>
+          </h2>
+        </div>
+        <div class="trabajamos__info">
+          <article class="trabajamos__article">
+            <p class="trabajamos__content">
+              Nos encontramos en plena crisis sanitaria, económica y política.
+              Nos unimos cuando la confianza social se había desmoronado. Nos
+              organizamos con la firme convicción de que podemos hacer mucho más
+              por nuestro país.
+            </p>
+            <p class="trabajamos__content">
+              Somos un movimiento de líderes empresariales comprometidos con
+              trabajar, personal y colectivamente, de manera íntegra, por este
+              propósito.
+            </p>
+            <p class="trabajamos__content">
+              Articulamos capacidades empresariales e impulsamos iniciativas de
+              alto impacto que respondan a desafíos urgentes del país y que
+              contribuyan a elevar los estándares de sostenibilidad del sector
+              privado.
+            </p>
+          </article>
+          <figure class="trabajamos__container-image">
+            <img class="trabajamos__image" src="./images/peru-map.png" alt="" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="alianzas" id="alianzas">
+        <h2 class="alianzas__title alianzas__title--bold">
+          Tejemos
+          <span class="alianzas__underlined"
+            >alianzas
+            <div class="alianzas__underlined-image"></div
+          ></span>
+          para impulsar iniciativas de alto impacto
+        </h2>
+
+        <p class="alianzas__content">
+          Seguimos un modelo de tres dimensiones: 1) partimos del compromiso
+          ciudadano de los líderes empresariales, 2) incorporamos las
+          capacidades y el talento de cada una de las organizaciones que
+          representan, y 3) nos sumamos a otros esfuerzos - civiles, privados,
+          públicos y de la cooperación internacional - para lograr impactos
+          sostenibles.
+        </p>
+        <h4 class="alianzas__subtitle">¿Cómo generamos impacto?</h4>
+        <div class="alianzas__circle-list">
+          <div class="alianzas__circle">
+            <img
+              class="alianzas__circle-image"
+              src="./images/cicle-in-circle.png"
+              alt="Representación gráfica de incubando iniciativas con diversos aliados."
+            />
+            <p>Co-creando e incubando iniciativas con diversos aliados.</p>
+          </div>
+          <div class="alianzas__circle">
+            <img
+              class="alianzas__circle-image"
+              src="./images/circle-dots.png"
+              alt="Representación gráfica de como sumamos recursos y capacidades a iniciativas existentes con alto potencial e impacto."
+            />
+            <p>
+              Sumando recursos y capacidades a iniciativas existentes con alto
+              potencial e impacto.
+            </p>
+          </div>
+          <div class="alianzas__circle">
+            <img
+              class="alianzas__circle-image"
+              src="./images/circle-lines.png"
+              alt="Representación gráfica de como asumimos compromisos que contribuyan a elevar los estándares de sostenibilidad del sector privado"
+            />
+            <p>
+              Asumiendo compromisos que contribuyan a elevar los estándares de
+              sostenibilidad del sector privado
+            </p>
+          </div>
+        </div>
+        <hr class="alianzas__line" />
+      </section>
+
+      <section class="contribuimos" id="contribuimos">
+        <h2 class="contribuimos__title">
+          <span class="contribuimos__highlighted"
+            >Contribuimos
+            <div class="contribuimos__highlighted-image"></div
+          ></span>
+          a dar
+          <b class="contribuimos__title--bold">solución a desafíos urgentes</b>
+          de la sociedad.
+        </h2>
+        <p class="contribuimos__content">
+          Alineados con los Objetivos de Desarrollo Sostenible de las Naciones
+          Unidas y de cara a los próximos tres años, hemos priorizado los
+          siguientes desafíos:
+        </p>
+        <div class="contribuimos__container-list">
+          <ul class="contribuimos__list">
+            <li class="contribuimos__item">
+              <p class="contribuimos__item-number">01.</p>
+              <p class="contribuimos__item-content">
+                Generación de oportunidades y fomento del emprendimiento.
+              </p>
+              <hr
+                class="contribuimos__item-line contribuimos__item-line--yellow"
+              />
+            </li>
+            <li class="contribuimos__item">
+              <p class="contribuimos__item-number">02.</p>
+              <p class="contribuimos__item-content">
+                Promoción de empleo digno y formal para más peruanos.
+              </p>
+              <hr
+                class="contribuimos__item-line contribuimos__item-line--red"
+              />
+            </li>
+            <li class="contribuimos__item">
+              <p class="contribuimos__item-number">03.</p>
+              <p class="contribuimos__item-content">
+                Fortalecimiento de la institucionalidad del país.
+              </p>
+              <hr
+                class="contribuimos__item-line contribuimos__item-line--light-blue"
+              />
+            </li>
+            <li class="contribuimos__item">
+              <p class="contribuimos__item-number">04.</p>
+              <p class="contribuimos__item-content">
+                Impulso de un liderazgo empresarial ciudadano y articulado.
+              </p>
+              <hr
+                class="contribuimos__item-line contribuimos__item-line--blue"
+              />
+            </li>
+            <li class="contribuimos__item">
+              <p class="contribuimos__item-number">05.</p>
+              <p class="contribuimos__item-content">
+                En el corto plazo, atención a la emergencia sanitaria.
+              </p>
+              <hr
+                class="contribuimos__item-line contribuimos__item-line--purple"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="iniciativas">
+        <h3 class="iniciativas__title">Conoce nuestras primeras iniciativas</h3>
+        <hr />
+        <ul class="iniciativas__list">
+          <li class="iniciativas__list-item">
+            <a href="" class="iniciativas__item-link"
+              ><h5 class="iniciativas__item-title">
+                Apoyo en el proceso de vacunación contra el COVID-19
+              </h5></a
+            >
+            <hr class="iniciativas__item-line iniciativas__item-line--purple" />
+            <p class="iniciativas__item-content">
+              Colaboración público-privada con el Proyecto Especial Legado
+              Panamericanos para el fortalecimiento de la operación de centros
+              de vacunación en Lima y la optimización del modelo de
+              planificación oferta-demanda. Se inició en mayo 2021 y se concluyó
+              en julio del mismo año.
+            </p>
+          </li>
+          <li class="iniciativas__list-item">
+            <a class="iniciativas__item-link" href=""
+              ><h5 class="iniciativas__item-title">Beca Talento Digital</h5></a
+            >
+            <hr class="iniciativas__item-line iniciativas__item-line--red" />
+            <p class="iniciativas__item-content">
+              La beca está dirigida a jóvenes desempleados o con empleo
+              precario, sin estudios superiores o estudios superiores truncos
+              afectados en el contexto de pandemia. Cubre estudios en bootcamps
+              nacionales e internacionales en habilidades digitales de alta
+              demanda como Desarrollo Full Stack, Data Anlytics y Business
+              Analytics.
+            </p>
+          </li>
+          <li class="iniciativas__list-item">
+            <a class="iniciativas__item-link" href=""
+              ><h5 class="iniciativas__item-title">
+                Co.digital <br />
+                Pymes creciendo juntas
+              </h5></a
+            >
+            <hr class="iniciativas__item-line iniciativas__item-line--yellow" />
+            <p class="iniciativas__item-content">
+              Programa enfocado en fortalecer las capacidades de gestión de las
+              Pymes, ayudándolas a optimizar sus recursos con el uso de la
+              tecnología y a ser más competitivas en un contexto de cambio y
+              digitalización. En alianza con
+              <a
+                class="iniciativas__item-content-link"
+                href="https://www.kaudal.la/emprendedores"
+                >Kaudal</a
+              >.
+            </p>
+          </li>
+        </ul>
+        <hr />
+      </section>
+
+      <section class="contacto" id="contacto">
+        <div class="contacto__title-container">
+          <h3 class="contacto__title">
+            ¿Quieres conocer más del movimiento? Visita nuestras
+            <b class="contacto__title--bold">preguntas frecuentes</b> o envíanos
+            un mensaje.
+          </h3>
+        </div>
+        <form class="contacto__form" action="">
+          <input class="contacto__form-name" type="text" placeholder="Nombre" />
+          <input
+            class="contacto__form-email"
+            type="email"
+            placeholder="Correo electrónico"
+          />
+          <input
+            class="contacto__form-number"
+            type="number"
+            name="number"
+            id="number"
+            placeholder="Teléfono"
+          />
+          <textarea
+            class="contacto__form-message"
+            name="message"
+            id="message"
+            cols="1"
+            rows="1"
+            placeholder="Mensaje"
+          ></textarea>
+          <button class="contacto__form-button">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="footer__signature-container">
+        <p class="footer__signature">
+          Página web clonado con
+          <img
+            class="footer__signature-icon"
+            src="./images/heart.svg"
+            alt="corazón"
+          />
+          por
+          <a
+            class="footer__signature-link"
+            target="_blank"
+            href="https://darsico.github.io/portafolio-dh/"
+            ><b class="footer__signature--bold"> Diego Huaman</b></a
+          >
+        </p>
+      </div>
+      <div class="footer__content">
+        <div class="footer__container">
+          <a class="footer__link" href="https://eshoy.pe/preguntasfrecuentes/">
+            <p>preguntas frecuentes</p>
+          </a>
+          <nav class="footer__nav">
+            <ul class="footer__nav-list">
+              <li class="footer__nav-list-item">
+                <a class="footer__nav-link" href="">facebook</a>
+              </li>
+              <li class="footer__nav-list-item">
+                <a class="footer__nav-link" href="">instagram</a>
+              </li>
+              <li class="footer__nav-list-item">
+                <a class="footer__nav-link" href="">linkedin</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <script src="./script.js"></script>
+    </footer>
+  </body>
 </html>
