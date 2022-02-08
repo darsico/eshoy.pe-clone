@@ -71,6 +71,7 @@ header.active {
 .header__mobile-menu-icon {
   position: absolute;
   right: 0;
+  top: 0;
   cursor: pointer;
 }
 @media screen and (min-width: 768px) {
