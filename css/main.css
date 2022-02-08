@@ -42,6 +42,7 @@ header {
   height: 4.375rem;
   z-index: 99;
   background-color: transparent;
+  height: 3.5rem;
 }
 
 header.active {
@@ -56,6 +57,7 @@ header.active {
   z-index: 99;
   background-color: var(--main-bg-color);
   transition: all 0.2s;
+  height: 3.5rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -64,6 +66,7 @@ header.active {
     -ms-flex-pack: center;
     justify-content: center;
     font-size: 1.3em;
+    height: auto;
   }
 }
 .header__mobile-menu-icon {
