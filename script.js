@@ -28,3 +28,20 @@ function show() {
 function hide() {
   popup.style.display = "none";
 }
+
+// animate__fadeInRight;
+const lastCircle = document.getElementById("last-circle");
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    const square = entry.target.getElementById("last-circle");
+
+    if (entry.isIntersecting) {
+      square.classList.add("animate__fadeInRight");
+      return;
+    }
+    square.classList.remove("animate__fadeInRight");
+  });
+});
+
+observer.observe(lastCircle);
