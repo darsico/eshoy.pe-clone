@@ -1,0 +1,99 @@
+:root {
+  --main-bg-color: #f2e7dd;
+  --main-text-color: rgba(0, 0, 0, 1);
+  --main-body-color: #838383;
+  --main-cta-color: #eb5c5d;
+  --main-blue: #0071ce;
+  --main-light-blue: #9ddaef;
+  --main-yellow: #fac802;
+  --main-purple: #8682d1;
+  --main-red: #f85c5d;
+  --main-black: rgba(0, 0, 0, 1);
+  --main-white: #ffff;
+  --letter-spacing-body: -0.6px;
+  --letter-spacing-heading: -0.09em;
+  --letter-spacing-heading-sm: -2px;
+  --main-heading-size: 4em;
+  --line-height-heading: 64px;
+  --main-font-family: "Work Sans", sans-serif;
+  --secondary-font-family: "Spectral", serif;
+  --sm-font-size: 0.8em;
+  --large-width: 1024px;
+  --responsive-width: min(90%, 70.5rem);
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: var(--main-font-family);
+  background-color: var(--main-bg-color);
+}
+/* HEADER */
+header {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 4.375rem;
+  z-index: 99;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 1.3em;
+  }
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  position: relative;
+  display: flex;
+  width: min(90%, 70.5rem);
+}
+
+.header__logo {
+  width: min(100px, 150px);
+}
+
+.header__logo-image {
+  width: 100%;
+}
+
+.header__nav {
+  margin-left: auto;
+  font-family: var(--secondary-font-family);
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .header__nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+  }
+}
+
+.header__nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+}
+
+.header__nav-list-link {
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+.header__nav-list-link:hover {
+  color: var(--main-cta-color);
+}
