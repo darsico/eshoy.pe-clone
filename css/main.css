@@ -66,7 +66,6 @@ header.active {
     -ms-flex-pack: center;
     justify-content: center;
     font-size: 1.3em;
-    height: auto;
   }
 }
 .header__mobile-menu-icon {
@@ -118,6 +117,7 @@ header.active {
   position: relative;
   display: flex;
   width: min(90%, 70.5rem);
+  align-items: center;
 }
 
 .header__logo {
